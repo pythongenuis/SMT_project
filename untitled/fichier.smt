@@ -1,0 +1,8 @@
+(set-logic ALL)
+(set-option :produce-models true)
+declare-const p1 Bool)
+declare-const p2 Bool)
+declare-const p3 Bool)
+(assert (and (and (and (not(and  p1 p2 p3))) (and   (not p1) (not p2) (not p3))) ))
+(check-sat)
+(get-model)

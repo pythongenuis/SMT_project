@@ -1,0 +1,37 @@
+sat
+(
+(define-fun p1 () Bool true)
+(define-fun p2 () Bool true)
+(define-fun p3 () Bool false)
+(define-fun p4 () Bool false)
+)
+
+
+# # Mon algo commence ici
+#
+#
+#     # print(unsecure_state)
+#     # print(provisoire)
+#     k=0
+#     provisoire=unsecure_state
+#     while k<len(t):
+#         # s = 0
+#         # while s < len (unsecure_state):
+#         #     provisoire[s] = unsecure_state[s]
+#         #     s = s + 1
+#         m=0
+#         while m<len(provisoire):
+#
+#             if t[k] == provisoire[m]:
+#                 provisoire[m] = "not " + provisoire[m]
+#
+#                 print("hello " + provisoire[m])
+#             unsecure_state[m] = provisoire[m]
+#             m = m+1
+#
+#         print(provisoire)
+#         k = k+1
+
+
+        #print("voila la nouvelle provisoir")
+        #print(provisoire)
